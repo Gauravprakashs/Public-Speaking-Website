@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauk Se Bolo - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <script src="js/auth.js"></script>
+</head>
+<body onload="checkAuthentication()">
+    <header>
+        <h1>Shauk Se Bolo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be dynamically generated here -->
+        </div>
+        <div id="cart-total" class="cart-total">
+            <!-- Total cost will be shown here -->
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shauk Se Bolo. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

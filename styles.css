@@ -1,0 +1,200 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('https://image.slidesdocs.com/responsive-images/background/yellow-gradient-warm-charming-water-nature-powerpoint-background_5fbc99d444__960_540.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 180, 0, 0.9);
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    padding: 100px 0 40px;
+    text-align: center;
+    color: #222;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+
+.image-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+.image-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.image-cards .card:hover {
+    transform: translateY(-5px);
+}
+
+.image-cards .card img {
+    width: 100%;
+    border-bottom: 2px solid #f1c40f;
+}
+
+.image-cards .card p {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.testimonials {
+    padding: 40px;
+    background-color: rgba(255, 228, 196, 0.9);
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 80px;
+}
+
+.testimonial {
+    min-width: 100%;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(255, 180, 0, 0.9);
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+.new-course {
+    background-color: #f7f9fc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.new-course h2 {
+    font-size: 2em;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.new-course p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.new-course button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-course button:hover {
+    background-color: #004d40;
+}
+
+
+.instant-results {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.instant-results h2 {
+    font-size: 2em;
+    color: #00695c;
+    margin-bottom: 10px;
+}
+
+.instant-results p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.instant-results button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #00695c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instant-results button:hover {
+    background-color: #004d40;
+}

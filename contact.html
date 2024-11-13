@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauk Se Bolo - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contacts.css">
+    <script src="js/auth.js"></script>
+    <script>
+        checkAuth(); // Ensure user is logged in
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Shauk Se Bolo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="margin-top:250px;" class="contact-section">
+      <center>  <h2>Contact Us</h2></center>
+        <p>We would love to hear from you! Please fill out this form, and we'll get in touch with you shortly.</p>
+
+        <form class="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <div class="contact-info-item">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> info@shauksebolo.com</p>
+            <p><strong>Phone:</strong> +91 4526648825</p>
+            <p><strong>Address:</strong> 123 law gate, Phagwara</p>
+        </div>
+        <div class="map-container">
+            <h3>Find Us Here</h3>
+            <iframe src="https://maps.google.com/maps?q=Your+Location&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Shauk Se Bolo. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

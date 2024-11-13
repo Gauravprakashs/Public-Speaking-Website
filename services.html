@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauk Se Bolo - Services</title>
+    <link rel="stylesheet" href="css/services.css"> <!-- Link to services.css -->
+    <script src="js/auth.js"></script>
+    <script>
+        checkAuth(); // Ensure user is logged in
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Shauk Se Bolo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">ℹ️About</a></li>
+                <li><a href="contact.html">📞Contact</a></li>
+                <li><a href="cart.html">🛒Cart</a></li>
+                <li><a href="#" onclick="logout()">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="services-content">
+        <h2>Our Services</h2>
+        <div id="service-cards" class="service-cards-container">
+         
+        </div>
+    </div>
+
+    <div id="service-details" class="service-details-container">
+    
+        <div id="course-content-1" class="course-content">
+            <h3>Public Speaking Course</h3>
+            <p>This course covers basic to advanced public speaking techniques. It includes speech writing, delivery, body language, and more. Cost: $500</p>
+        </div>
+        <div id="course-content-2" class="course-content">
+            <h3>Voice Training Session</h3>
+            <p>Enhance your voice with this specialized training, focusing on pitch, tone, and clarity. Perfect for professionals. Cost: $300</p>
+        </div>
+        <div id="course-content-3" class="course-content">
+            <h3>Advanced Speech Course</h3>
+            <p>This course focuses on mastering speech for high-impact presentations. Includes speech analysis, delivery techniques, and audience engagement strategies. Cost: $700</p>
+        </div>
+    </div>
+
+    <script src="js/services.js"></script>
+</body>
+</html>

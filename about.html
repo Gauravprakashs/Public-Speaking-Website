@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauk Se Bolo - About</title>
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/auth.js"></script>
+    <script>
+        checkAuth(); 
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Shauk Se Bolo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">ℹ️About</a></li>
+                <li><a href="contact.html">📞Contact</a></li>
+                <li><a href="cart.html">🛒Cart</a></li>
+                <li><a href="#" onclick="logout()">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about-section">
+        <h2>About Us</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" onclick="toggleAccordion(this)">Our Mission</h3>
+                <div class="accordion-content">
+                    <p>Our mission is to empower individuals to find their voice and express themselves confidently in any setting...</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" onclick="toggleAccordion(this)">Our Vision</h3>
+                <div class="accordion-content">
+                    <p>Our vision is to create a world where everyone can speak confidently and connect with others effectively...</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" onclick="toggleAccordion(this)">Our Team</h3>
+                <div class="accordion-content">
+                    <p>Our team is made up of experienced public speakers, coaches, and communication experts dedicated to helping people achieve their goals...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shauk Se Bolo. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+
+        function toggleAccordion(element) {
+            const content = element.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>

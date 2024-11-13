@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauk Se Bolo - Home</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="js/auth.js"></script>
+</head>
+<body onload="checkAuthentication()">
+   
+    <header>
+        <h1>Shauk Se Bolo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">ℹ️About</a></li>
+                <li><a href="contact.html">📞Contact</a></li>
+                <li><a href="cart.html">🛒Cart</a></li>
+                <li><a href="#" onclick="logout()">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section class="hero">
+        <h2>Welcome to Shauk Se Bolo!</h2>
+        <p>Your journey to confident public speaking begins here.</p>
+    </section>
+
+   
+    <section class="image-cards">
+        <div class="card"><img src="/images/publickSpeaking.jpg" alt="Card 1"><p>Build Confidence</p></div>
+        <div class="card"><img src="/images/engage.jpg" alt="Card 2"><p>Learn to Engage</p></div>
+        <div class="card"><img src="/images/effComm.jpg" alt="Card 3"><p>Effective Communication</p></div>
+        <div class="card"><img src="/images/fear.jpg" alt="Card 4"><p>Overcome Fear</p></div>
+        <div class="card"><img src="/images/pronun.jpg" alt="Card 5"><p>Improve Pronunciation</p></div>
+    </section>
+
+    <section class="new-course">
+        <h2>Buy Our New Course</h2>
+        <p>Get access to our comprehensive public speaking course designed by experts. Master confidence, engagement, and impactful communication!</p>
+        <button onclick="location.href='services.html'">Explore Course</button>
+    </section>
+
+   
+    <section class="instant-results">
+        <h2>Get Instant Results</h2>
+        <p>Experience rapid improvement with our actionable techniques and personalized feedback. Start seeing real changes from your first session!</p>
+        <button onclick="location.href='login.html'">Sign Up Now</button>
+    </section>
+
+   
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">"I became more confident in public speaking!" - Aditi</div>
+            <div class="testimonial">"The sessions are very interactive." - Vikram</div>
+            <div class="testimonial">"I could overcome my stage fear." - Suman</div>
+            <div class="testimonial">"Best public speaking course!" - Raj</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shauk Se Bolo. All Rights Reserved.</p>
+        <p>About Us: Shauk Se Bolo is committed to helping individuals gain the confidence they need to speak publicly with assurance and charisma. Our experienced coaches and effective curriculum ensure progress with every session.</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
